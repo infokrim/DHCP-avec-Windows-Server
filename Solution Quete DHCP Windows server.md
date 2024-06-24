@@ -9,7 +9,8 @@
 
 ![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/DHCPwin1.PNG)     
 
-1. **Se placer sur le réseau local du groupe :**   
+1. **Se placer sur le réseau local du groupe :**
+
 Demande de l'exercice :
    
 > Configure la carte réseau de ta machine virtuelle en Réseau Interne
@@ -24,6 +25,7 @@ Se positionner sur **"matériel"** (dans le menu gauche de ma VM)
 double cliquer sur **"Carte réseau"**   
 
 Puis dans **"Pont"** choisir le groupe auquel on appartient.   
+
 Dans notre cas, c'est le groupe 1 (G1)   
 
 ![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/b.PNG)     
@@ -31,7 +33,10 @@ Dans notre cas, c'est le groupe 1 (G1)
 Il faut faire exactement la même chose sur la VM qui fera office de client.    
 
 2. **Renommer Système si necéssaire sous windows server 2022 :**
-Cliquer sur le logo windows en bas à gauche de l'écran.   
+
+
+Cliquer sur le logo windows en bas à gauche de l'écran.    
+
 ![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/d.PNG)
  
 Choisir **"System"**   
@@ -40,12 +45,16 @@ Choisir **"System"**
 
 Cliquer sur **"rename this PC"**   
 
-Taper le nom désirer, ici ce sera comme suggéré en exemple, **"SRV-DHCP"**.   ![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/g.PNG)   
+Taper le nom désirer, ici ce sera comme suggéré en exemple, **"SRV-DHCP"**.   
+
+
+![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/g.PNG)   
 
    
 Cliquer sur le bouton **"Next"**   
 
-![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/h.PNG)
+![](https://github.com/infokrim/DHCP-avec-Windows-Server/blob/main/capture_%20DHCP_winserv/h.PNG)     
+
    
 Puis cliquer sur **"Restart now"**    
 
@@ -67,7 +76,8 @@ La fenêtre suivante s'affiche :
 Cliquer sur **Ethernet** dans le menu sur la gauche     
  
   
-Cliquer sur **Network2** 
+Cliquer sur **Network2**   
+
 ![3](https://github.com/infokrim/DHCP-avec-Windows-Server/assets/169550534/0414cba7-f28e-4068-a1fb-442013a4b6bb)    
 
 La fenêtre suivante s'affiche :     

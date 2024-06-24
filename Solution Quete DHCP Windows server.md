@@ -7,8 +7,11 @@
 **Voici l'apparence de windows server 2022 venant d'être installé :**   
 image1  
 1. **Se placer sur le réseau local du groupe :**   
-Demande de l'exercice :    
-> Configure la carte réseau de ta machine virtuelle en Réseau Interne  
+Demande de l'exercice :
+   
+> Configure la carte réseau de ta machine virtuelle en Réseau Interne
+
+
 Pour cela dans proxmox :
 Se positionner sur **"matériel"** (dans le menu gauche de ma VM   
 a   
